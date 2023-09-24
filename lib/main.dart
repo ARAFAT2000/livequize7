@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:livequize7/screen/counterScreen.dart';
+import 'package:livequize7/sumapp/uiscreen/appui.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home:  CounterScreen(),
+      home:  AppUI(),
     );
   }
 }
